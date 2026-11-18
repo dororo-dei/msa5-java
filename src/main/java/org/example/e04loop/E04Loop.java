@@ -33,9 +33,7 @@ public class E04Loop {
                 System.out.printf("%d X %d = %d%n", i, j, i*j);
             }
             if(i != 9){
-//                System.out.println();
                 System.out.println();
-//                System.out.println();
             } else {
                 System.out.println();
             }
