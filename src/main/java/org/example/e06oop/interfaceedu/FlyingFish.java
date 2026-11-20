@@ -1,5 +1,7 @@
 package org.example.e06oop.interfaceedu;
 
+import java.sql.SQLOutput;
+
 class FlyingFish extends Fish implements Swim, Flight{
     FlyingFish(){
         super("날치","바다");
@@ -20,4 +22,5 @@ class FlyingFish extends Fish implements Swim, Flight{
         System.out.println(Flight.infoMsg);
         return String.format("%s이/가 날아갑니다.", this.name);
     }
+
 }

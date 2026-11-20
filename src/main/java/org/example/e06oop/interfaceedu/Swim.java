@@ -5,4 +5,5 @@ interface Swim {
 
     // 추상 메소드
     public String swimming();
+
 }
