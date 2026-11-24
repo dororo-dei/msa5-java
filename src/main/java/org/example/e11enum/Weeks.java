@@ -7,7 +7,6 @@ public enum Weeks {
     // Type-safe(타입 안전)
     // 정해 둔 자료형에 맞는 값만 사용하도록 확인해,
     // 타입 때문에 생기는 실수를 막는다는 뜻
-
     MONDAY("월요일", 1), // 0부터 숫자 매겨지는데 이를 ordinality
     TUESDAY("화요일", 2),  // 근데 순서성은 x
     WEDNESDAY("수요일", 3), // 연산용도로 사용 x
